@@ -1,0 +1,12 @@
+URL Base
+https://https://sujeitoprogramador.com/
+
+Rotas
+1 - r-api/?api=filmes             Essa rota retorna TODOS os filmes
+2 - r-api/?api=filme/123          Esta rota retorna APENAS um filme - id (id: 123)
+3 - r-api/?api=filmes/Favoritos   Aqui vai para a rota do filme favoritado
+
+Endpoints
+https://https://sujeitoprogramador.com/r-api/?api=filmes 
+https://https://sujeitoprogramador.com/r-api/?api=filme/123
+https://https://sujeitoprogramador.com/r-api/?api=filmes/favoritos  
