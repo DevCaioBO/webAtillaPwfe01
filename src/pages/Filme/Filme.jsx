@@ -10,7 +10,7 @@ export default function Filme() {
     //caio<- declarando a navegação
     const navigate = useNavigate()
 
-    const [movie,setMovie] = useState(null)
+    const [movie,setMovie] = useState([])
     const [loading,setLoading] = useState(true)
 
    useEffect(()=>{
@@ -62,7 +62,7 @@ export default function Filme() {
                 <p>{movie.sinopse}</p>
                 <div className="botoes">
                     <button onClick={saveMovie}>Salvar</button>
-                    <a href={`https://www.youtube.com/results?search_query=${encodeURIComponentm(movie.nome + " Trailer")}`}  target="blank" rel="noopener noreferrer ">Trailer</a>
+                    <a href={`https://www.youtube.com/results?search_query=${encodeURIComponent(movie.nome + " Trailer")}`}  target="blank" rel="noopener noreferrer ">Trailer</a>
                 </div>    
             </article>
             </div>
